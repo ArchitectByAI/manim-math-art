@@ -16,3 +16,14 @@ A collection of programmatic, loopable math and physics animations created using
 git clone D:\ArchitectByAI_Projects\manim-math-art\manim-math-art\cardioid.py
 cd manim-math-art
 
+2. Install dependencies Make sure you have Python installed, as well as FFmpeg and LaTeX (for rendering text/math).
+bash
+
+
+pip install -r requirements.txt
+3. Render the video To generate the 9:16 vertical video for social media:
+bash
+
+
+manim -pql cardioid.py Epicycloid
+(Note: -pql renders in low quality for quick testing. Use -pqh for high quality 1080p final rendering).
