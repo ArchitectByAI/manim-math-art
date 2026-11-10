@@ -1,15 +1,15 @@
-# The Invisible Automation Engine
+# Automation Engine
 
-ArchitectByAI • Manim 2.0 Batch 01 • **Using Python**
+**ArchitectByAI — Engineered Intelligence | Created Using Python**
 
-**Concept:** Workflow triggers and routing decisions.
+**Concept:** Workflow automation.
 
-**Featured offer:** Business Process Automation.
+This animation uses Python, Pillow and NumPy, **not native Manim**.
 
-## Source and rendering
+## Render
 
-The original Batch 01 animations were produced with Python/Pillow, NumPy, imageio and FFmpeg, **not with the Manim engine**. Episodes 02–07 use the shared `../render_batch.py` renderer; run `python animation.py` from this episode folder. The original Episode 01 renderer must be copied from the approved Batch 01 archive into this folder before it can be reproduced.
+From the `Batch01` directory, install dependencies with `pip install -r requirements.txt` and ensure FFmpeg is installed.
 
-No MP4 videos are stored in this repository. Video files are reserved for social platforms.
+Run `python 05_Automation_Engine/animation.py` or `python render_batch.py --episode 5`. The entrypoint uses the complete shared `Batch01/render_batch.py` and outputs the MP4 in `Batch01/Episode_05_Automation_Engine/`.
 
-**Brand:** ArchitectByAI — Engineered Intelligence.
+On Windows/macOS, update the Linux DejaVu Sans font paths in the source. Videos are intentionally not committed to GitHub.
