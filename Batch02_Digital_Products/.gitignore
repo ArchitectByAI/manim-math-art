@@ -1,0 +1,9 @@
+*.mp4
+*.blend
+frames/
+stage_*.png
+preview3d.png
+review_*.jpg
+contact*.jpg
+cinematic_plate.png
+__pycache__/
